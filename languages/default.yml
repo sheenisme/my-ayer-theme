@@ -20,6 +20,7 @@ category: Category
 tag: Tag
 site_visitors: Visitors
 page_views: Views
+friends: Friends
 
 post:
   word_count: Word count
@@ -28,4 +29,10 @@ post:
   reward: Donate
   sticky: Sticky
   copyright_title: Copyright
-  copyright_content: 版权所有属于未央。对于商业转载，请联系作者（微信：sheenisme）以获取授权。 对于非商业转载，请注明出处。
+  copyright_content: Copyright is owned by the sheen song. For commercial reprints, please contact the author for authorization （WeChat：sheenisme）. For non-commercial reprints, please indicate the source.
+
+lock:
+  lock_info: Please enter password
+  lock_error: Incorrect password, please try again
+  confirm_text: Ok
+  cancel_text: Cancel

@@ -1,10 +1,12 @@
 {
-  "name": "ayer",
-  "version": "1.0.0",
+  "name": "hexo-theme-ayer",
+  "version": "1.9.7-0",
   "description": "a clean and elegant theme for hexo.",
   "scripts": {
-    "dev": "parcel serve source-src/main.js -d source/dist",
-    "build": "rimraf source/dist && parcel build source-src/main.js -d source/dist --no-source-maps"
+    "dev": "rollup -c -w",
+    "build": "rollup -c",
+    "postinstall": "node ./move_config.js",
+    "test": "stylint source-src/css/style.styl -c .stylintrc"
   },
   "source": "source-src/main.js",
   "repository": {
@@ -17,16 +19,18 @@
     "blog",
     "ayer"
   ],
-  "author": "Shen-Yu",
-  "license": "MIT License",
+  "author": "Shen-Yu <shenyu@hotmail.com>",
+  "license": "SATA",
   "bugs": {
-    "url": "https://github.com/Shen-Yu/hexo-theme-ayer/issues"
+    "url": "https://github.com/Shen-Yu/hexo-theme-ayer/issues",
+    "email": "shenyu@hotmail.com"
   },
-  "homepage": ".",
+  "homepage": "https://shen-yu.gitee.io/",
   "devDependencies": {
-    "autoprefixer": "^9.7.4",
-    "parcel-bundler": "^1.12.4",
-    "postcss-modules": "^1.5.0"
-  },
-  "dependencies": {}
+    "autoprefixer": "^9.8.6",
+    "rollup": "^2.50.2",
+    "rollup-plugin-styles": "^3.14.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "stylint": "^2.0.0"
+  }
 }

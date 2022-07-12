@@ -20,6 +20,7 @@ category: Category
 tag: Tag
 site_visitors: 访问人数
 page_views: 浏览次数
+friends: 友情链接
 
 post:
   word_count: 字数统计
@@ -29,3 +30,9 @@ post:
   sticky: 置顶
   copyright_title: 版权声明
   copyright_content: 版权所有属于未央。商业转载，请联系作者（微信：sheenisme）以获取授权。 非商业转载，请注明出处并附上原文链接，谢谢配合。
+
+lock:
+  lock_info: 请输入访问密码
+  lock_error: 密码错误，请重试
+  confirm_text: 确定
+  cancel_text: 取消

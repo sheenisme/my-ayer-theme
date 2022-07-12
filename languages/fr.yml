@@ -20,6 +20,7 @@ category: Catégorie
 tag: Mot-clé
 site_visitors: Visitors
 page_views: Views
+friends: Mes amis
 
 post:
   word_count: Nombre de mots
@@ -29,3 +30,9 @@ post:
   sticky: Haut
   copyright_title: Avis de copyright
   copyright_content: Le droit d'auteur appartient à l'auteur. Pour les réimpressions commerciales, veuillez contacter l'auteur pour autorisation. Pour les réimpressions non commerciales, veuillez indiquer la source.
+
+lock:
+  lock_info: Please enter password
+  lock_error: Incorrect password, please try again
+  confirm_text: Ok
+  cancel_text: Cancel

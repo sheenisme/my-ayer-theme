@@ -20,6 +20,7 @@ category: Category
 tag: Tag
 site_visitors: Visitors
 page_views: Views
+friends: Friends
 
 post:
   word_count: Word count
@@ -28,4 +29,10 @@ post:
   reward: Donate
   sticky: Sticky
   copyright_title: Copyright
-  copyright_content: Copyright is owned by the sheen. For commercial reprints, please contact the author for authorization （WeChat：sheenisme）. For non-commercial reprints, please indicate the source.
+  copyright_content: Copyright is owned by the sheen song. For commercial reprints, please contact the author for authorization （WeChat：sheenisme）. For non-commercial reprints, please indicate the source.
+
+lock:
+  lock_info: Please enter password
+  lock_error: Incorrect password, please try again
+  confirm_text: Ok
+  cancel_text: Cancel

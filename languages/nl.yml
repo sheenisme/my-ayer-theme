@@ -20,6 +20,7 @@ category: Categorie
 tag: Label
 site_visitors: Visitors
 page_views: Views
+friends: Vrienden
 
 post:
   word_count: Aantal woorden in artikel
@@ -29,3 +30,9 @@ post:
   sticky: Sticky
   copyright_title: Copyright melding
   copyright_content: Copyright is eigendom van de auteur. Neem voor commerciële herdrukken contact op met de auteur voor autorisatie. Geef de bron aan voor niet-commerciële herdrukken.
+
+lock:
+  lock_info: Please enter password
+  lock_error: Incorrect password, please try again
+  confirm_text: Ok
+  cancel_text: Cancel

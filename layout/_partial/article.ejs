@@ -9,6 +9,7 @@
     <% if (post.link || post.title){ %>
     <header class="article-header">
       <%- partial('post/title', {class_name: 'article-title'}) %>
+      <%- partial('post/author', {class_name: 'article-author'}) %>
     </header>
     <% } %> <% if (index || is_post()) { %>
     <div class="article-meta">
@@ -30,8 +31,10 @@
       <!-- reward -->
       <% if ((theme.reward_type === 2 || (theme.reward_type === 1 &&
       post.reward)) && !index && !post.no_reward){ %>
-      <div id="reward-btn">
-        <%= __('post.reward') %>
+      <div id="reword-out">
+        <div id="reward-btn">
+          <%= __('post.reward') %>
+        </div>
       </div>
       <% } %>
     </div>
@@ -45,7 +48,11 @@
         <li>
           <i class="ri-copyright-line"></i>
           <strong><%= __('post.copyright_title') %>： </strong>
+          <% if (post.copyright_content) { %>
+          <%= post.copyright_content %>
+          <% } else { %>
           <%= __('post.copyright_content') %>
+          <% } %>
         </li>
       </ul>
     </div>
@@ -61,5 +68,5 @@
   post.slug, title: post.title, url: config.url+url_for(post.path) }) %> <% } %>
   <% if (is_post()) { %> <%- partial('post/gitalk') %> <% } %> <% if
   (theme.minivaline && theme.minivaline.enable && !post.no_minivaline){ %> <%-
-  partial('post/minivaline') %> <% } %>
+  partial('post/minivaline') %> <% } %> <% if (is_post()) { %> <%- partial('post/twikoo') %> <% } %>
 </article>
