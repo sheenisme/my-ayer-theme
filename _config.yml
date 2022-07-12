@@ -41,7 +41,7 @@ progressBar: true
 broadcast:
   enable: true # true开启，false关闭
   type: 2 # 1：自定义输入，2：一言api(https://hitokoto.cn/)
-  text: 一个安静优雅的hexo主题，快速且响应式。 # type为1时有效
+  text: 未央的响应式博客。 # type为1时有效
 
 # 文章配置
 # 文章太长，截断按钮文字(在需要截断的行增加此标记：<!--more-->)
@@ -152,7 +152,7 @@ google_analytics: ""
 baidu_analytics: ""
 
 # Mathjax数学公式
-mathjax: false
+mathjax: true
 
 # Katex数学公式(allpost设置为false时只有头部设置math:true的文章才开启)
 # 需要更换hexo渲染器，npm un hexo-renderer-marked -S && npm i hexo-renderer-markdown-it-katex -S
@@ -168,13 +168,13 @@ mermaid:
   theme: forest
 
 # 网站成立年份(默认为 2019，若填入年份小于当前年份，则显示为 2018-2019 类似的格式)
-since: 2020
+since: 2018
 
 # ICP备案信息尾部显示
 icp:
-  enable: false
+  enable: true
   url: "https://beian.miit.gov.cn/" # 备案链接
-  text: "浙ICP备88888888" # 备案信息
+  text: "豫ICP备17001354号" # 备案信息
 # 公安备案信息尾部显示
 gongan:
   enable: false
@@ -190,10 +190,10 @@ friends_link:
     #网站图片(可忽略不写)
     img: /images/ayer.png
   GitHub:
-    url: https://github.com/Shen-Yu
+    url: https://github.com/sheenisme
     img: /images/github.png
   码云:
-    url: https://gitee.com/shen-yu
+    url: https://gitee.com/sheenisme
     img: /images/gitee.png
   Hexo官网:
     url: https://hexo.io
@@ -212,7 +212,7 @@ leancloud:
   app_key: yP7Tv2csrP5SRTJp68Wr7HAv
 # Valine配置
 valine:
-  enable: false # 是否启用
+  enable: true # 是否启用
   avatar: monsterid # 头像样式(https://valine.js.org/avatar.html)
   placeholder: 欢迎给我的文章评论，留下您的宝贵意见吧~ # placeholder
 
@@ -227,22 +227,22 @@ gitalk:
 
 # 3、Twikoo(https://github.com/imaegoo/twikoo)
 twikoo:
-  enable: true
+  enable: false
   envId: #
 
 # 首页广告配置
 # 可以根据需要自行增加ad_3，ad_4...，留空则不显示，建议图片和url不要带ad等关键词，否则可能会被adblock等插件屏蔽
-ads:
-  ad_1:
-    title: 云服务器限时秒杀
-    img: https://pic.imgdb.cn/item/62174b452ab3f51d912a5ccc.jpg
-    url: https://curl.qcloud.com/kvO7hb43
-    width: 300
-  ad_2:
-    title: vultr优惠vps
-    img: https://pic.imgdb.cn/item/62174b452ab3f51d912a5cd7.png
-    url: https://www.vultr.com/?ref=8630075
-    width: 300
+# ads:
+#   ad_1:
+#     title: 云服务器限时秒杀
+#     img: https://pic.imgdb.cn/item/62174b452ab3f51d912a5ccc.jpg
+#     url: https://curl.qcloud.com/kvO7hb43
+#     width: 300
+#   ad_2:
+#     title: vultr优惠vps
+#     img: https://pic.imgdb.cn/item/62174b452ab3f51d912a5cd7.png
+#     url: https://www.vultr.com/?ref=8630075
+#     width: 300
 
 # 网站开启加密访问，密码可设置任何字符
 lock:
