@@ -4,11 +4,11 @@ menu:
   归档: /archives
   分类: /categories
   标签: /tags
-  图床: /photos
-  简历: /CV
   # 爱情: /LOVE
-  关于我: /关于我
-  
+  简历: https://cv.sheensong.top
+  Pictures: /photos
+  About me: /关于我
+  Home: https://sheensong.top
 
 # 站点次标题和打字动效
 # https://github.com/mattboldt/typed.js
