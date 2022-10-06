@@ -1,4 +1,10 @@
-<p align="center"><a href="https://ayer.886622.xyz" target="_blank" rel="noopener noreferrer"><img width="100" src="logo.png" alt="ayer logo"></a></p>
+我的博客主题（改自Ayer-https://shen-yu.gitee.io）。
+
+以下为原作者的说明：
+
+---
+
+<p align="center"><a href="https://shen-yu.gitee.io" target="_blank" rel="noopener noreferrer"><img width="100" src="logo.png" alt="ayer logo"></a></p>
 
 <h3 align="center">一个干净且优雅的 Hexo 主题</h3>
 
@@ -30,8 +36,6 @@
   <a href="https://github.com/Shen-Yu/hexo-theme-ayer/blob/master/LICENSE" target="_blank" rel="noopener noreferrer"><img alt="LICENSE" src="https://img.shields.io/badge/LICENSE-SATA-6ccab8">
   </a>
 </p>
-
----
 
 :ocean: Ayer is a clean and elegant theme for Hexo, also fast, powerful and responsive. It contains many awesome features, It's perfect for your blog, "Ayer" means "water" in Malaysian and "yesterday" in Spanish. [Create an issue](https://github.com/shen-yu/hexo-theme-ayer/issues/new/choose) if you have any queries or advice during the process of using, 
 
