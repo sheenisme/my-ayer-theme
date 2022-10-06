@@ -14,7 +14,6 @@ module.exports = (hexo) => {
 |        /_/    \\_\\_|  |______|_|  \\_\\         |
 |                                              |
 |             感谢使用 Ayer 主题 !             |
-|   文档: https://shen-yu.gitee.io/2019/ayer/  |
 |                                              |
 ------------------------------------------------
 `);
@@ -30,7 +29,6 @@ module.exports = (hexo) => {
 |          /_/    \\_\\_|  |______|_|  \\_\\           |
 |                                                  |
 |        Thank you for using Ayer theme !          |
-| Docs: https://github.com/Shen-Yu/hexo-theme-ayer |
 |                                                  |
 ----------------------------------------------------
 `);
