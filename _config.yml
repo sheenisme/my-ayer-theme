@@ -1,14 +1,14 @@
 # 侧边栏菜单
 menu:
-  主页: /
+  首页: /
   归档: /archives
   分类: /categories
   标签: /tags
   # 爱情: /LOVE
-  简历: https://cv.sheensong.top
+  简历: http://cv.sheensong.top
   Pictures: /photos
   About me: /关于我
-  Home: https://sheensong.top
+  HomePage: http://sheensong.top
 
 # 站点次标题和打字动效
 # https://github.com/mattboldt/typed.js
@@ -118,7 +118,7 @@ click_effect: 1
 # 页面宽度自定义（不建议修改，可能造成布局混乱），article_width文章宽度，sidebar_width侧边栏宽度
 layout:
   article_width: 80rem
-  sidebar_width: 8rem
+  sidebar_width: 9rem
 
 # GitHub Ribbons-封面右上角的forkme，换样式直接在source/images目录下替换forkme图片
 github:
