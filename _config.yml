@@ -5,10 +5,10 @@ menu:
   分类: /categories
   标签: /tags
   # 爱情: /LOVE
-  简历: http://cv.sheensong.top
+  简历: https://sheensong.top/blog/CV/index.html
   图床: /photos
-  首页: https://sheensong.top
-  我: /关于我
+  关于我: /关于我
+  网站首页: https://sheensong.top
 
 # 站点次标题和打字动效
 # https://github.com/mattboldt/typed.js
