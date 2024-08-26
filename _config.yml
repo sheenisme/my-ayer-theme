@@ -6,9 +6,9 @@ menu:
   标签: /tags
   # 爱情: /LOVE
   简历: http://cv.sheensong.top
-  Pictures: /photos
-  About me: /关于我
-  HomePage: http://sheensong.top
+  图床: /photos
+  首页: https://sheensong.top
+  我: /关于我
 
 # 站点次标题和打字动效
 # https://github.com/mattboldt/typed.js
