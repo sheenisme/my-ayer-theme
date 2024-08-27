@@ -29,7 +29,7 @@ post:
   reward: Donate
   sticky: Sticky
   copyright_title: Copyright
-  copyright_content: 版权所有属于未央。对于商业转载，请联系作者（微信：sheenisme）以获取授权。 对于非商业转载，请注明出处。
+  copyright_content: 版权所有属于未央。对于商业转载，请联系作者(邮箱: sheensong@163.com)以获取授权。 对于非商业转载，请注明出处。
 
 lock:
   lock_info: Please enter password
