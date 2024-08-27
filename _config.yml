@@ -24,14 +24,14 @@ subtitle:
   showCursor: true # 是否显示光标
 
 # 网站图标和侧边栏logo
-favicon: /favicon.ico
-logo: /images/ayer.png
+favicon: /blog/favicon.ico
+logo: /blog/images/ayer.png
 
 # 封面配置
 # enable-是否启用封面；path-封面背景图；logo-封面logo
 cover:
   enable: true
-  path: /images/cover8.jpg # /source/images目录下附送多张美图，可更换
+  path: /blog/images/cover8.jpg # /source/images目录下附送多张美图，可更换
   logo: false  #/images/ayer.svg，如果不要直接设置成false
 
 # 页面顶部进度条
@@ -85,9 +85,9 @@ reward_type: 2
 # 打赏wording
 reward_wording: "请我喝杯咖啡吧~"
 # 支付宝二维码图片地址，跟你设置logo的方式一样。比如：/images/alipay.jpg
-alipay: /images/alipay.jpg
+alipay: /blog/images/alipay.jpg
 # 微信二维码图片地址
-weixin: /images/wechat.png
+weixin: /blog/images/wechat.png
 
 # 版权声明
 # 版权声明type设定：0-关闭版权声明； 1-文章对应的md文件里有copyright: true属性，才有版权声明； 2-所有文章均有版权声明
@@ -110,7 +110,7 @@ canvas_bg: 0
 # 自定义鼠标样式，直接替换/images/mouse.cur文件
 mouse:
   enable: true
-  path: /images/mouse.cur
+  path: /blog/images/mouse.cur
 
 # 鼠标点击效果：0-关闭，1-爱心，2-爆炸烟花，3-粒子烟花
 click_effect: 1
